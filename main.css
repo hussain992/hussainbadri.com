@@ -1,0 +1,17 @@
+body {
+	font-size: 18px;
+	
+}
+.align_center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;	
+	height: 100vh;
+}
+
+.rocket-img {
+	height: 10em;
+	/*align-items: center;
+	justify-content: center;*/
+}
