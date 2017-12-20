@@ -1,6 +1,11 @@
 body {
 	font-size: 18px;
-	
+	margin: 0px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: black;
+}
+.hm_bgimg {
+	background-image:  url('https://unsplash.it/1366/768/?random&blur');
 }
 .align_center {
 	display: flex;
@@ -15,3 +20,5 @@ body {
 	/*align-items: center;
 	justify-content: center;*/
 }
+
+
