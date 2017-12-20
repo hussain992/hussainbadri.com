@@ -6,6 +6,9 @@ body {
 }
 .hm_bgimg {
 	background-image:  url('https://unsplash.it/1366/768/?random&blur');
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 .align_center {
 	display: flex;
