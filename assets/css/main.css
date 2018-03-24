@@ -1,0 +1,113 @@
+body {
+	font-size: 18px;
+	margin: 0px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: black;
+}
+.rel {
+  position: relative;
+}
+.hm_bgimg {
+	background-image:  url('https://unsplash.it/1366/768/?random&blur');
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.align_center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;	
+	height: 100vh;
+}
+
+.rocket-img {
+	height: 10em;
+	/*align-items: center;
+	justify-content: center;*/
+}
+/*  comming soon code ends */
+
+.brand_name {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  font-weight: 300;
+
+}
+.hm_banner {
+  height: 540px;
+  background: linear-gradient(to bottom right,
+   rgba(222, 0, 63, .8),
+   rgba(235, 74, 0, .8)),
+    url('../img/banner1.jpg');
+    background-size: cover;
+}
+.banner_txt_align {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  color: white;
+  top: 0;
+  bottom: 0;
+}
+.banner_txt {
+  font-size: 2.7em;
+  font-weight: 300;
+  /* margin: 10px 0px; */
+  line-height: 1.3;
+  font-family: 'Roboto', sans-serif;
+}
+.text_overlay {
+  background-color: #ffffff17;
+}
+.banner_btn {
+    border-color: #fff;
+    background-color: transparent;
+    color: #fff;
+    display: inline-block;
+    margin-right: 14px;
+    padding: 16px 26px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    -webkit-transition: background-color 250ms ease, color 250ms ease, border-color 250ms ease;
+    transition: background-color 250ms ease, color 250ms ease, border-color 250ms ease;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    width: fit-content;
+    margin-top: 2.1em;
+}
+.banner_btn:hover {
+    background-color: transparent;
+    color: #000;
+    border: 2px solid #000;
+    background-color: transparent;
+    -webkit-transition: background-color 250ms ease, color 250ms ease, border-color 250ms ease;
+    transition: background-color 250ms ease, color 250ms ease, border-color 250ms ease;
+    text-decoration: none;
+}
+
+
+@media (max-width: 767px) {
+  body {
+    font-size: 12px;
+  }
+  .brand_name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8em;
+    font-weight: 400;
+  }
+  .hm_banner {
+    height: 320px;
+  }
+  .banner_txt {
+    padding-bottom: 10px;
+    line-height: 1.1;
+  }
+  .banner_btn {
+    padding: 8px 18px;
+    margin-top: 0.9em;
+  }
+}
