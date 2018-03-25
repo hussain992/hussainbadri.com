@@ -1,7 +1,8 @@
 body {
 	font-size: 18px;
 	margin: 0px;
-	font-family: 'Josefin Sans', sans-serif;
+	/*font-family: 'Josefin Sans', sans-serif;*/
+  font-family: 'Roboto', sans-serif;
 	color: black;
 }
 .rel {
@@ -66,7 +67,7 @@ body {
     color: #fff;
     display: inline-block;
     margin-right: 14px;
-    padding: 16px 26px;
+    padding: 13px 24px;
     border: 2px solid #fff;
     background-color: transparent;
     -webkit-transition: background-color 250ms ease, color 250ms ease, border-color 250ms ease;
