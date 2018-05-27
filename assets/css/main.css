@@ -8,6 +8,12 @@ body {
 .rel {
   position: relative;
 }
+.bg-grey {
+  background-color: #ededed;
+}
+.white-bg {
+  background-color: white;
+}
 .hm_bgimg {
 	background-image:  url('https://unsplash.it/1366/768/?random&blur');
 	background-repeat: no-repeat;
@@ -38,10 +44,10 @@ body {
 .hm_banner {
   height: 540px;
   background: linear-gradient(to bottom right,
-   rgba(222, 0, 63, .8),
-   rgba(235, 74, 0, .8)),
-    url('../img/banner1.jpg');
-    background-size: cover;
+  rgba(222, 0, 63, .8),
+  rgba(235, 74, 0, .8)),
+  url('../img/banner1.jpg');
+  background-size: cover;
 }
 .banner_txt_align {
   display: flex;
@@ -62,34 +68,59 @@ body {
   background-color: #ffffff17;
 }
 .banner_btn {
-    border-color: #fff;
-    background-color: transparent;
-    color: #fff;
-    display: inline-block;
-    margin-right: 14px;
-    padding: 13px 24px;
-    border: 2px solid #fff;
-    background-color: transparent;
-    -webkit-transition: background-color 250ms ease, color 250ms ease, border-color 250ms ease;
-    transition: background-color 250ms ease, color 250ms ease, border-color 250ms ease;
-    font-size: 18px;
-    font-weight: 400;
-    text-align: center;
-    text-decoration: none;
-    text-transform: capitalize;
-    width: fit-content;
-    margin-top: 2.1em;
+  border-color: #fff;
+  background-color: transparent;
+  color: #fff;
+  display: inline-block;
+  margin-right: 14px;
+  padding: 13px 24px;
+  border: 2px solid #fff;
+  background-color: transparent;
+  -webkit-transition: background-color 250ms ease, color 250ms ease, border-color 250ms ease;
+  transition: background-color 250ms ease, color 250ms ease, border-color 250ms ease;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  width: fit-content;
+  margin-top: 2.1em;
 }
 .banner_btn:hover {
-    background-color: transparent;
-    color: #000;
-    border: 2px solid #000;
-    background-color: transparent;
-    -webkit-transition: background-color 250ms ease, color 250ms ease, border-color 250ms ease;
-    transition: background-color 250ms ease, color 250ms ease, border-color 250ms ease;
-    text-decoration: none;
+  background-color: transparent;
+  color: #000;
+  border: 2px solid #000;
+  background-color: transparent;
+  -webkit-transition: background-color 250ms ease, color 250ms ease, border-color 250ms ease;
+  transition: background-color 250ms ease, color 250ms ease, border-color 250ms ease;
+  text-decoration: none;
 }
-
+.progressbar-custom {
+  background: rgba(222, 0, 63, .8);
+  background: linear-gradient(-90deg, rgba(235, 74, 0, .8), rgba(222, 0, 63, .8));
+  font-size: 14px;
+}
+.help-desctiption {
+  color: dimgray;
+  padding-bottom: 15px;
+  /* font-size: 14px; */
+}
+.home_page_title {
+  margin: 0px 0px 32px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 300;
+  color: dimgray;
+}
+.project-name-block {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+}
+.prj_img_height {
+  height: 300px;
+}
 
 @media (max-width: 767px) {
   body {
