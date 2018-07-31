@@ -118,8 +118,25 @@ body {
   left: 20px;
   color: white;
 }
-.prj_img_height {
+.prj_recent_img_height {
   height: 300px;
+}
+.prj_img_height {
+  height: 220px;
+}
+.input_grey {
+  background-color: #f7f7f7;
+}
+.inq_btn {
+  background-color: #d1d1d1;
+  border: none;
+  border-radius: 0px;
+}
+.inq_btn:hover {
+  background-color: #ef6d34;
+}
+.contact_input:focus {
+  box-shadow: inset 3px 0px 0 0px #ef6d34;
 }
 
 @media (max-width: 767px) {
